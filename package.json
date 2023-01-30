@@ -1,0 +1,21 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "profinansy",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-redis": "^6.1.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "redis": "^4.6.3"
+  }
+}
